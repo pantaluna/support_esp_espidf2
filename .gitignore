@@ -1,0 +1,55 @@
+# V.A.
+_tmp/
+tmp/
+Thumbs.db
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+
+# Editors / emacs
+.dir-locals.el
+*~
+.#*
+\#*#
+*.vi
+
+# MacOS directory files
+.DS_Store/
+
+# SCSS-Lint
+scss-lint-report.xml
+
+# grunt-contrib-sass cache
+.sass-cache/
+
+# Package Folders
+bower_components/
+node_modules/
+
+# Eclipse CDT C C++ / OS
+.cache/
+.idea/
+.settings/
+build
+.cproject
+.project
+.tmproj
+*.esproj
+
+# GCC gcov coverage reports
+*.gcda
+*.gcno
+coverage.info
+coverage_report
+
+# EDP-IDF
+cmake-build-debug/
+test/xtensa-esp32-elf
+test/esp-idf
+test/build
+sdkconfig
+sdkconfig.old
